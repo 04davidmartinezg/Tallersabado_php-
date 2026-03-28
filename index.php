@@ -1,4 +1,1 @@
 <!DOCTYPE html>
-<?php
-
-?>

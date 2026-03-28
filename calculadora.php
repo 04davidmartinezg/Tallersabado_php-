@@ -48,7 +48,7 @@ class CalculadoraPro {
         </form>
 
         <?php
-        require_once 'CalculadoraPro.php';
+        require_once 'calculadora.php';
         $calc = new CalculadoraPro();
         if (isset($_POST['borrar'])) {
             $_SESSION['historial'] = [];
