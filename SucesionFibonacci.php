@@ -62,5 +62,6 @@ class Fibonacci_factorial{
         }
         ?>
     </div>
+     <a href="index.php">Volver al Menú</a>
 </body>
 </html>

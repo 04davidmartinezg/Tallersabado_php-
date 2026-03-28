@@ -44,7 +44,7 @@ class ConstructorArbol {
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Punto 6 - Árboles Binarios</title>
+    <title>Árbol Binarios</title>
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
@@ -76,7 +76,7 @@ class ConstructorArbol {
             echo "</div>";
         }
         ?>
-        <a href="index.php" class="btn-volver">← Volver al Menú</a>
+        <a href="index.php" > Volver al Menú</a>
     </div>
 </body>
 </html>

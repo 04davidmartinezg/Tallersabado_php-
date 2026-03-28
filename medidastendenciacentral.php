@@ -67,5 +67,6 @@ class Estadistica {
         }
         ?>
     </div>
+     <a href="index.php">Volver al Menú</a>
 </body>
 </html>

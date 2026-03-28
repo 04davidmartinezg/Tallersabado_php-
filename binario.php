@@ -20,7 +20,7 @@ class Binario {
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Punto 5 - Decimal a Binario</title>
+    <title>Decimal a Binario</title>
     <link rel="stylesheet" href="estilos.css">
     <style>
         /* CSS Específico para el Punto 5 */

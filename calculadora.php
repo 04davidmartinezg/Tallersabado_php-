@@ -77,7 +77,7 @@ class CalculadoraPro {
             </ul>
         </div>
         
-        <a href="index.php" class="btn-volver">← Volver al Menú</a>
+        <a href="index.php">← Volver al Menú</a>
     </div>
 </body>
 </html>

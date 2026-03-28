@@ -42,6 +42,8 @@ class GeneradorAcronimo {
         }
         ?>
         </div>
+        <br>
+         <a href="index.php">Volver al Menú</a>
     </body>
 </head>
 </html>

@@ -1,4 +1,5 @@
-/* ---------------- Acronimo ---------------- */
+/* ---------------- Menu ---------------- */
+
 body {
     background-color: #f4f4f9;
     font-family: 'Segoe UI', sans-serif;
@@ -14,7 +15,31 @@ body {
     box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     text-align: center;
 }
+.menu-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 20px;
+}
 
+.menu-btn {
+    display: block;
+    background-color: #f8f9fa;
+    color: #004d98; 
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 5px solid #a50044;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+.menu-btn:hover {
+    background-color: #004d98;
+    color: white;
+    transform: translateX(10px); 
+    border-left-color: #edbb00; 
+}
+/* ---------------- Acronimo ---------------- */
 input {
     padding: 10px;
     width: 250px;
