@@ -1,3 +1,4 @@
+/* ---------------- Acronimo ---------------- */
 body {
     background-color: #f4f4f9;
     font-family: 'Segoe UI', sans-serif;
@@ -6,7 +7,7 @@ body {
     padding-top: 50px;
 }
 
-.container {
+.contenedor {
     background: white;
     padding: 30px;
     border-radius: 10px;
@@ -38,4 +39,85 @@ button:hover {
     margin-top: 20px;
     font-size: 1.2em;
     color: #333;
+}
+/* ---------------- FINOBACCI Factorial ---------------- */
+select {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    display: block;
+    width: 100%;
+}
+
+/* ---------------- Arbol Binario ---------------- */
+.res-arbol {
+    margin-top: 20px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.tree, .tree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.tree li {
+    margin: 0 5px;
+    padding: 10px 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.nodo-v {
+    border: 2px solid #004d98; 
+    padding: 10px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background: #fff;
+    font-weight: bold;
+    color: #a50044; 
+    display: inline-block;
+}
+
+.tree ul { padding-top: 20px; }
+.tree li::before {
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid #ccc;
+    height: 20px;
+}
+
+/* ---Calculadora e Historial --- */
+.res-calculadora {
+    font-size: 1.8em;
+    color: #004d98;
+    margin: 20px 0;
+    padding: 15px;
+    background: #f0f4f8;
+    border-radius: 8px;
+    border: 2px solid #a50044;
+}
+
+.res-estadistica h3 {
+    border-bottom: 2px solid #edbb00; 
+    padding-bottom: 5px;
+    color: #a50044;
+}
+
+.res-estadistica ul {
+    list-style: none;
+    padding: 0;
+    max-height: 150px;
+    overflow-y: auto; 
+}
+
+.res-estadistica li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+    font-size: 0.9em;
+    color: #555;
 }
