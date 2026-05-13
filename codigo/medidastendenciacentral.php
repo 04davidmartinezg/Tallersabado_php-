@@ -15,7 +15,7 @@ class Estadistica {
     public function calcularMediana() {
         $n = count($this->numeros);
         if ($n == 0) return 0;
-        $medio = floor(($n - 1) / 2);
+        $medio = intdiv($n - 1, 2);
         
         if ($n % 2) { 
             return $this->numeros[$medio];
