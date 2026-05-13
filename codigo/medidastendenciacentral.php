@@ -56,7 +56,6 @@ class Estadistica {
 
         <?php
         if ($_POST && isset($_POST['datos'])) {
-            require_once 'medidastendenciacentral.php';
             $analizador = new Estadistica($_POST['datos']);
             
             echo "<div class='resultado'>";

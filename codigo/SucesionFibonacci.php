@@ -47,7 +47,6 @@ class Fibonacci_factorial{
 
         <?php
         if ($_POST) {
-            require_once 'Calculadora.php';
             $calc = new Fibonacci_factorial($_POST['num']);
             $op = $_POST['operacion'];
 

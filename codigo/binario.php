@@ -22,19 +22,7 @@ class Binario {
     <meta charset="UTF-8">
     <title>Decimal a Binario</title>
     <link rel="stylesheet" href="estilos.css">
-    <style>
-        /* CSS Específico para el Punto 5 */
-        .resultado strong {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 2rem;
-            color: var(--azul-barca);
-            background: #eef2f7;
-            padding: 5px 15px;
-            border-radius: 5px;
-            display: inline-block;
-            margin-top: 10px;
-        }
-    </style>
+    
 </head>
 <body>
     <div class="contenedor">
